@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Terminal } from "@/components/terminal";
 import { ImageOverlay } from '@/components/image-overlay';
 

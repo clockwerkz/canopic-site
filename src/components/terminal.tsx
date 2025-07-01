@@ -1,8 +1,8 @@
 "use client";
-import { ReactElement, useState, useEffect } from "react";
+import { ReactElement, useState } from "react";
 
 export const Terminal: React.FC = (): ReactElement => {
-  const [ terminalText, setTerminalText ] = useState<string>("Please enter your command:");
+  const [ terminalText ] = useState<string>("Please enter your command:");
   const [ inputText, setInputText ] = useState<string>("");
   
   const handleTerminalSubmit = async (e:React.FormEvent<HTMLFormElement>) => {

@@ -1,4 +1,4 @@
-export async function GET(request: Request): Promise<Response> {
+export async function GET(): Promise<Response> {
   const card = {
     name: "Card Test",
     imageId: "1234"
